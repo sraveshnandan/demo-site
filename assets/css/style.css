@@ -15,9 +15,9 @@ html {
   --secondry: #333;
   --textColor: rgb(153, 71, 235);
   --btn-color: #706dcf;
-  --p-color:grey;
+  --p-color: grey;
   --text-hover: rgb(95, 81, 252);
-  --button-shadow:0.4rem 0.4rem 12rem #706dcf;
+  --button-shadow: 0.4rem 0.4rem 12rem #706dcf;
   --shadow: 0.4rem 0.4rem 46rem #dfd2ef;
   --border: 0.2rem solid rgb(197, 177, 241);
   --rounded-md: 0.8rem;
@@ -31,7 +31,7 @@ body {
 }
 
 /* main div styling  */
-main{
+main {
   width: 90%;
   margin: auto;
 }
@@ -209,8 +209,7 @@ header {
 
 /* features box styling  */
 
-.our-features{
-
+.our-features {
 }
 .head-text-box {
   display: flex;
@@ -247,7 +246,7 @@ header {
   cursor: pointer;
   height: 30rem;
 }
-.features-box:hover{
+.features-box:hover {
   box-shadow: var(--button-shadow);
 }
 .features-box-img {
@@ -306,8 +305,7 @@ span:hover {
   border-radius: var(--rounded-md);
   background-color: #fff;
 }
-.t-details-box:hover{
-
+.t-details-box:hover {
   box-shadow: var(--button-shadow);
 }
 .t-img-box {
@@ -363,9 +361,9 @@ span:hover {
 
 /* Last five year admitted student design  */
 
-.timeStamps{
+.timeStamps {
   width: 70%;
-  padding: .8rem 2.1rem;
+  padding: 0.8rem 2.1rem;
   border-radius: var(--rounded-md);
   margin: auto;
   display: flex;
@@ -374,7 +372,7 @@ span:hover {
   justify-content: space-between;
   background-color: var(--primary);
 }
-.timeStamps button{
+.timeStamps button {
   margin-right: 2rem;
   background-color: #fff;
   padding: 1.2rem 2rem;
@@ -385,13 +383,13 @@ span:hover {
   font-size: 1.5rem;
   border-radius: var(--rounded-md);
 }
-.timeStamps button:hover{
-  background-color:var(--btn-color);
+.timeStamps button:hover {
+  background-color: var(--btn-color);
   color: #fff;
   box-shadow: var(--button-shadow);
 }
 
-.table-wrapper{
+.table-wrapper {
   background-color: var(--primary);
   border-radius: var(--rounded-md);
   width: 80%;
@@ -400,19 +398,17 @@ span:hover {
   padding: 20rem;
 }
 
-
 /* Placement section styling  */
 
-.place-wrapper{
+.place-wrapper {
   width: 90%;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
   padding: 1rem;
   background-color: var(--primary);
-
 }
-.place-left{
+.place-left {
   width: 50%;
   height: 100%;
   display: flex;
@@ -422,24 +418,22 @@ span:hover {
   border-bottom-left-radius: var(--rounded-md);
   padding: 5rem;
   background-color: #fff;
-
 }
-.place-right{
+.place-right {
   width: 50%;
- display: flex;
- gap: .8rem;
- flex-wrap: wrap;
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   border-top-right-radius: var(--rounded-md);
   border-bottom-right-radius: var(--rounded-md);
   padding: 2rem;
   background-color: #fff;
-
 }
 
-.user-box{
-  width: 80% ;
+.user-box {
+  width: 80%;
   height: 80%;
   display: flex;
   background-color: var(--primary);
@@ -451,16 +445,16 @@ span:hover {
   flex-direction: column;
   cursor: pointer;
 }
-.user-box img{
+.user-box img {
   width: 80%;
   height: 80%;
   margin-bottom: 1.2rem;
 }
 
-.user-box:hover{
+.user-box:hover {
   box-shadow: var(--button-shadow);
 }
-.mini-user-box{
+.mini-user-box {
   width: 30%;
   height: fit-content;
   background-color: var(--primary);
@@ -472,78 +466,76 @@ span:hover {
   justify-content: center;
   cursor: pointer;
   flex-direction: column;
-  
 }
-.mini-user-box:hover{
+.mini-user-box:hover {
   box-shadow: var(--button-shadow);
 }
 
-.mini-user-box img{
+.mini-user-box img {
   width: 100%;
   height: 50%;
 }
-.mini-heading{
+.mini-heading {
   font-size: 1.5rem;
 }
-.mini-sub-heading{
-  font-size: .8rem;
+.mini-sub-heading {
+  font-size: 0.8rem;
   color: gray;
   font-weight: 750;
 }
 
-
 /* Testimonila section styling */
 
-.t-component{
+.t-component {
   width: 25%;
   margin: 2rem;
   background-color: #fff;
   height: fit-content;
   cursor: pointer;
-  padding: .5rem 1.8rem;
+  padding: 0.5rem 1.8rem;
   text-align: justify;
   border-radius: var(--rounded-md);
 }
 
-.t-component:hover{
+.t-component:hover {
   box-shadow: var(--shadow);
 }
-.t-message{
+.t-message {
   font-size: 1.5rem;
   font-weight: 680;
   color: var(--p-color);
 }
-.t-message b{
+.t-message b {
   font-size: 2rem;
 }
-.t-t-details{
+.t-t-details {
   display: flex;
   flex-direction: row;
   width: 100%;
-  padding: .8rem;
+  padding: 0.8rem;
   margin-top: 2.5rem;
   background-color: var(--primary);
   border-radius: var(--rounded-md);
   align-items: start;
   gap: 2rem;
 }
-.t-img img{
+.t-img img {
   width: 100%;
   height: 100%;
 }
-.t-img{
+.t-img {
   width: 25%;
   height: 100%;
   cursor: pointer;
-  transition: all .5s;
-  padding: .5rem;
+  transition: all 0.5s;
+  padding: 0.5rem;
   border-radius: var(--rounded-md);
   background-color: #fff;
 }
-.t-img:hover{
+.t-img:hover {
   box-shadow: var(--button-shadow);
 }
-.name{
+.name {
   width: 75%;
   height: 100%;
   display: flex;
@@ -551,189 +543,179 @@ span:hover {
   align-items: center;
 }
 
-
 /* Responsive media screen styling  */
 
-@media screen and (max-width:768px) {
-
-  html{
+@media screen and (max-width: 768px) {
+  html {
     font-size: 50%;
   }
-  body{
+  body {
     width: 100vw;
-  
+
     background-color: var(--btn-color);
   }
 
   /* intro section styling  */
-  main{
+  main {
     width: 99vw;
     overflow-x: hidden;
-    margin:0;
+    margin: 0;
     height: fit-content;
   }
-  .main{
-    margin: 0 ;
+  .main {
+    margin: 0;
     width: 100vw;
     overflow-x: hidden;
   }
-  .left{
+  .left {
     width: 100%;
-
   }
-  .right{
+  .right {
     display: none;
   }
-  .sub-heading{
+  .sub-heading {
     width: 100%;
   }
-  .name{
+  .name {
     text-align: center;
   }
-  .name span{
+  .name span {
     font-size: 2.5rem;
   }
-  .name .sub-heading{
+  .name .sub-heading {
     font-size: 1.7rem;
   }
 
   /* fetaures section styling  */
-  .slider-wrapper{
+  .slider-wrapper {
     justify-content: center;
     gap: 2.5rem;
     flex-direction: column;
   }
-  .feature-details p{
+  .feature-details p {
     font-size: 1.3rem;
-
   }
-  .features-box{
+  .features-box {
     width: 60%;
     height: fit-content;
-    
   }
-  .features-box p{
+  .features-box p {
     font-size: 2rem;
     margin-bottom: 1rem;
   }
-  .t-details-box{
+  .t-details-box {
     width: 85%;
   }
-  .t-details-box p{
+  .t-details-box p {
     font-size: 1.5rem;
-    margin: .5rem 0;
+    margin: 0.5rem 0;
   }
-  .t-component{
+  .t-component {
     width: 60%;
-    margin: .5rem 0;
+    margin: 0.5rem 0;
   }
-
- 
-  
 }
 
-
-@media  screen and (max-width:448px){
-  html{
+@media screen and (max-width: 448px) {
+  html {
     font-size: 40%;
   }
-  body{
-    padding:.1rem;
+  body {
+    padding: 0.1rem;
   }
-  .main{
+  .main {
     height: fit-content;
     padding-bottom: 4rem;
   }
-  .last{
+  .last {
     margin: 2rem 0;
-
   }
-  .features-box{
+  .features-box {
     width: 90%;
-    
   }
-  .t-details-box{
+  .t-details-box {
     width: 95%;
   }
-  .t-component{
+  .t-component {
     width: 95%;
   }
-  .details p{
+  .details p {
     font-size: 1rem;
   }
-  .timeStamps{
+  .timeStamps {
     width: 98%;
   }
-  .heading{
+  .heading {
     display: inline block;
     overflow-y: hidden;
   }
-  .table-wrapper{
+  .table-wrapper {
     width: 98%;
   }
-  .sub-heading{
+  .sub-heading {
     width: 100%;
   }
-  .feature-details{
+  .feature-details {
     padding: 0 2rem 0 0;
   }
-  .place-right{
+  .place-right {
     padding: 1rem;
   }
-  .place-left{
+  .place-left {
     height: 26.5rem;
     padding: 1rem;
   }
-  .user-box{
+  .user-box {
     width: 100%;
   }
-   .place-left .user-box .heading{
+  .place-left .user-box .heading {
     font-size: 1.5rem;
   }
-  .place-left .user-box .sub-heading{
+  .place-left .user-box .sub-heading {
     font-size: 1rem;
   }
-  .place-wrapper{
+  .place-wrapper {
     height: 100%;
     overflow: hidden;
   }
-  .place-right{
+  .place-right {
     padding: 1rem;
-    gap: .2rem;
+    gap: 0.2rem;
     height: 26.5rem;
     overflow-y: scroll;
     justify-content: center;
   }
-  .mini-user-box{
+  .mini-user-box {
     width: 40%;
-    margin: 1.2rem .5rem;
+    margin: 1.2rem 0.5rem;
     height: 10rem;
-    padding: 1rem .5rem;
+    padding: 1rem 0.5rem;
   }
-  .mini-user-box img{
+  .mini-user-box img {
     width: 80%;
     aspect-ratio: 1/1;
     height: 50%;
   }
-  .mini-heading{
-    margin-top: .3rem;
+  .mini-heading {
+    margin-top: 0.3rem;
     font-size: 1rem;
   }
-  .place-right .mini-user-box .mini-sub-heading{
-    font-size: .1rem;
+  .place-right .mini-user-box .mini-sub-heading {
+    font-size: 0.1rem;
   }
 
-  .name{
+  .name {
     width: 100%;
     height: 100%;
     text-align: center;
-    .name{
-      text-align: center;
-    }
-    .name span{
-      font-size: 2.5rem;
-    }
-    .name .sub-heading{
-      font-size: 1.7rem;
-    }
+  }
+  .name {
+    text-align: center;
+  }
+  .name span {
+    font-size: 2.5rem;
+  }
+  .name .sub-heading {
+    font-size: 1.7rem;
+  }
 }
