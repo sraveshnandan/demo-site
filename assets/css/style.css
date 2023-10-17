@@ -552,7 +552,7 @@ span:hover {
   body {
     width: 100vw;
 
-    background-color: var(--btn-color);
+    background-color: var(--primary);
   }
 
   /* intro section styling  */
