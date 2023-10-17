@@ -15,6 +15,7 @@ html {
   --secondry: #333;
   --textColor: rgb(153, 71, 235);
   --btn-color: #706dcf;
+  --p-color:grey;
   --text-hover: rgb(95, 81, 252);
   --button-shadow:0.4rem 0.4rem 12rem #706dcf;
   --shadow: 0.4rem 0.4rem 46rem #dfd2ef;
@@ -27,6 +28,12 @@ html {
 body {
   background-color: var(--primary);
   width: 100%;
+}
+
+/* main div styling  */
+main{
+  width: 90%;
+  margin: auto;
 }
 
 /* Header styles  */
@@ -127,7 +134,7 @@ header {
 /* Image box image styles  */
 .img-box img {
   width: 20rem;
-
+  cursor: pointer;
   transition: all 0.5s;
   height: 22rem;
 }
@@ -135,7 +142,7 @@ header {
 /* image hover styling  */
 
 .img-box img:hover {
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
 
 /* Details box styles  */
@@ -145,7 +152,7 @@ header {
   width: 50%;
   padding: 0 0.5rem;
   margin: 0 1rem;
-  border-radius: 0.8rem;
+  border-radius: var(--rounded-md);
   display: flex;
   flex-direction: column;
 }
@@ -163,6 +170,7 @@ header {
   margin: 1rem 0;
 }
 .details p {
+  color: var(--p-color);
   font-size: 1.5rem;
   line-height: 2rem;
   font-weight: 550;
@@ -201,7 +209,8 @@ header {
 
 /* features box styling  */
 
-.our-features {
+.our-features{
+
 }
 .head-text-box {
   display: flex;
@@ -339,7 +348,7 @@ span:hover {
 .about {
   font-size: 1.3rem;
   font-weight: 650;
-  color: gray;
+  color: var(--p-color);
 }
 .inner-t-box {
   width: 100%;
@@ -418,13 +427,13 @@ span:hover {
 .place-right{
   width: 50%;
  display: flex;
- gap: 2rem;
+ gap: .8rem;
  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   border-top-right-radius: var(--rounded-md);
   border-bottom-right-radius: var(--rounded-md);
-  padding: 5rem;
+  padding: 2rem;
   background-color: #fff;
 
 }
@@ -487,11 +496,11 @@ span:hover {
 
 .t-component{
   width: 25%;
-  margin: 2rem ;
+  margin: 2rem;
   background-color: #fff;
   height: fit-content;
   cursor: pointer;
-  padding: 1.5rem 1.8rem;
+  padding: .5rem 1.8rem;
   text-align: justify;
   border-radius: var(--rounded-md);
 }
@@ -502,7 +511,7 @@ span:hover {
 .t-message{
   font-size: 1.5rem;
   font-weight: 680;
-  color: gray;
+  color: var(--p-color);
 }
 .t-message b{
   font-size: 2rem;
@@ -540,4 +549,153 @@ span:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+
+/* Responsive media screen styling  */
+
+@media screen and (max-width:768px) {
+
+  html{
+    font-size: 50%;
+  }
+  body{
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: var(--btn-color);
+  }
+
+  /* intro section styling  */
+  main{
+    width: 100vw;
+    overflow-x: hidden;
+    margin:0;
+    height: fit-content;
+  }
+  .main{
+    width: 100vw;
+    overflow-x: hidden;
+  }
+  .left{
+    width: 100%;
+
+  }
+  .right{
+    display: none;
+  }
+
+  /* fetaures section styling  */
+  .slider-wrapper{
+    justify-content: center;
+    gap: 2.5rem;
+    flex-direction: column;
+  }
+  .feature-details p{
+    font-size: 1.3rem;
+
+  }
+
+ 
+  
+}
+
+
+@media  screen and (max-width:448px){
+  html{
+    font-size: 40%;
+  }
+  body{
+    padding:.1rem;
+  }
+  .main{
+    height: fit-content;
+    padding-bottom: 4rem;
+  }
+  .last{
+    margin: 2rem 0;
+
+  }
+  .features-box{
+    width: 90%;
+    
+  }
+  .t-details-box{
+    width: 95%;
+  }
+  .t-component{
+    width: 95%;
+  }
+  .details p{
+    font-size: 1rem;
+  }
+  .timeStamps{
+    width: 98%;
+  }
+  .heading{
+    display: inline block;
+    overflow-y: hidden;
+  }
+  .table-wrapper{
+    width: 98%;
+  }
+  .sub-heading{
+    width: 100%;
+  }
+  .feature-details{
+    padding: 0 2rem 0 0;
+  }
+  .place-right{
+    padding: 1rem;
+  }
+  .place-left{
+    height: 26.5rem;
+    padding: 1rem;
+  }
+  .user-box{
+    width: 100%;
+  }
+   .place-left .user-box .heading{
+    font-size: 1.5rem;
+  }
+  .place-left .user-box .sub-heading{
+    font-size: 1rem;
+  }
+  .place-wrapper{
+    height: 100%;
+    overflow: hidden;
+  }
+  .place-right{
+    padding: 1rem;
+    gap: .2rem;
+    height: 26.5rem;
+    overflow-y: scroll;
+    justify-content: center;
+  }
+  .mini-user-box{
+    width: 40%;
+    margin: 1.2rem .5rem;
+    height: 10rem;
+    padding: 1rem .5rem;
+  }
+  .mini-user-box img{
+    width: 80%;
+    aspect-ratio: 1/1;
+    height: 50%;
+  }
+  .mini-heading{
+    margin-top: .3rem;
+    font-size: 1rem;
+  }
+  .place-right .mini-user-box .mini-sub-heading{
+    font-size: .1rem;
+  }
+
+  .name{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  .name {
+    font-size: 7rem;
+  }
 }
